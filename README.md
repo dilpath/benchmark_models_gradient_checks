@@ -3,11 +3,11 @@ Gradient checks for the collection of PEtab benchmark models. The gradients chec
 
 # Usage
 1. Link to the benchmark models. Either:
-    - clone the models inside this repository with:
+    - clone the models inside this repository with
     ```bash
     git clone https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab.git
     ```
-    - change paths to match a pre-existing copy of the models
+    - or, change paths to match a pre-existing copy of the models
         - `_helpers.py`: `benchmark_path`
         - `run.sh`: `benchmark_dir`
 2. Setup a Python environment with:
@@ -21,3 +21,4 @@ Gradient checks for the collection of PEtab benchmark models. The gradients chec
 - tee output to log file named by tool/model/vector
 - parallelize across test vectors
 - use job array
+- add number of failing parameters to each cell in the plot heatmap
